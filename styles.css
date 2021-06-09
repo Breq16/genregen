@@ -53,3 +53,21 @@ p {
         font-size: 24px;
     }
 }
+
+input {
+    margin-top: 0.5em;
+
+    font: inherit;
+    color: inherit;
+
+    border: 2px solid #ccc;
+    border-radius: 0.25em;
+
+    padding: 0.25em;
+
+    text-align: center;
+}
+
+input.invalid {
+    color: #f00;
+}
